@@ -7,7 +7,7 @@ space = GridSpace((20, 20))
 
 # make agents
 @agent struct Schelling(GridAgent{2})
-    mood::Bool = false # declares that all agents 
+    mood::Bool = false # declares that all agents start with mood = false (they are sad :( )
     group::Int
 end
 
